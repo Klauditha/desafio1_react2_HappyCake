@@ -1,0 +1,11 @@
+#home{
+    padding-top:10%;
+}
+h1 , h5 {
+    text-align: center;
+}
+
+img {
+    margin:auto;
+    display:block;
+}
