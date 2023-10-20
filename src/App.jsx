@@ -9,8 +9,8 @@ function App() {
     <>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contacto />} />
+        <Route basename="desafio1_react2_HappyCake" path="/" element={<Home />} />
+        <Route basename="desafio1_react2_HappyCake" path="/contact" element={<Contacto />} />
       </Routes>
     </>
   );
