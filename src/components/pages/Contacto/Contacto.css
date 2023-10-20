@@ -1,0 +1,13 @@
+#contacto {
+  padding-top: 5%;
+}
+
+label {
+  text-align: center;
+  display: block;
+}
+
+#enviar {
+  display: block;
+  margin: auto;
+}
