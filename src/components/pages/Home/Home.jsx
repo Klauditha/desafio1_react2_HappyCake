@@ -1,4 +1,5 @@
 import './Home.css'
+import happyCake from '../../../assets/img/happyCake.png'
 
 const Home = () => {
   return (
@@ -7,7 +8,7 @@ const Home = () => {
         Bienvenido a <b>Happy Cake</b>
       </h1>
       <h5>El lugar de los pasteles felices</h5>
-      <img src="../../../../src/assets/img/happyCake.png" height="200px" />
+      <img src={happyCake} height="200px" />
     </div>
   );
 };
